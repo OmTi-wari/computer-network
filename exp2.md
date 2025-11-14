@@ -1,0 +1,7 @@
+Aim
+To study and use basic Linux networking commands such as ping, tracert, nslookup, netstat, ARP, RARP, ip, ifconfig, dig, and route to analyze network connectivity, diagnose issues, view routing tables, inspect interface configurations, and understand how a system interacts with other devices and servers on a network.
+________________________________________
+Theory
+This experiment explores essential Linux commands used for network testing and troubleshooting. The ping command checks connectivity by sending ICMP echo packets and measuring response time. tracert/traceroute maps the path taken by packets across different network hops, helping identify delays or failures. nslookup and dig are DNS-related tools that resolve domain names to IP addresses and provide detailed DNS records. netstat displays active network connections, listening ports, and protocol statistics, useful for monitoring system traffic. ARP shows the mapping of IP addresses to MAC addresses stored in the ARP cache, while RARP historically allowed devices to request their IP from a server. The ifconfig and ip commands display and configure network interface details like IP address, MAC, and status. Finally, the route command shows and modifies the system’s routing table, indicating how packets are forwarded. Together, these commands help understand real-time network behavior and provide a foundation for diagnosing and managing communication in any networked system.
+
+
